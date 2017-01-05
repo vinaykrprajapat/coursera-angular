@@ -43,14 +43,6 @@ function ShoppingListCheckOffService() {
 
 var broughtitems = [];
 
-  service.addItem = function (itemName, quantity) {
-    var item = {
-      name: itemName,
-      quantity: quantity
-    };
-    items.push(item);
-  };
-
   service.removeItem = function (itemIdex) {
      broughtitems.push(items[itemIdex]);
     items.splice(itemIdex, 1);
