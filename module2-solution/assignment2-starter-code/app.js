@@ -11,13 +11,6 @@ function AlreadyBoughtController(ShoppingListCheckOffService) {
   var itemAdder = this;
 
   itemAdder.broughtitems = ShoppingListCheckOffService.getBroughtItems();
-
-  // itemAdder.itemName = "";
-  // itemAdder.itemQuantity = "";
-  //
-  // itemAdder.addItem = function () {
-  //   ShoppingListCheckOffService.addItem(itemAdder.itemName, itemAdder.itemQuantity);
-  // }
 }
 
 
